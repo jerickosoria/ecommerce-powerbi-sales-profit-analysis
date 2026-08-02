@@ -1,0 +1,20 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environment
+myenv/
+venv/
+.env/
+
+# VS Code settings
+.vscode/
+
+# OS-specific files
+.DS_Store
+
+# Power BI autosaves
+*.pbix.autosave
