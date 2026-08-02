@@ -90,5 +90,6 @@ LICENSE
 ## 📬 Contact
 
 Created by **Jerick Osoria**  
+jerickos77@gmail.com
 Phoenix, AZ  
 
