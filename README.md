@@ -87,9 +87,38 @@ LICENSE
 
 ---
 
-## 📬 Contact
+## 📐 Data Model (Mermaid Schema Diagram)
+
+```mermaid
+graph TD
+
+%% Main Tables
+Orders["Orders Table"]
+OrderDetails["Order Details Table"]
+SalesTarget["Sales Target Table"]
+DateTable["Date Table"]
+
+%% Relationships
+Orders -->|order_id| OrderDetails
+OrderDetails -->|order_date| DateTable
+Orders -->|order_date| DateTable
+SalesTarget -->|month_of_order_date| DateTable
+
+%% Category & Product Fields (inside Order Details)
+OrderDetails --> Category["Category"]
+OrderDetails --> SubCategory["Sub-Category"]
+OrderDetails --> ProductID["Product ID"]
+
+%% Measures & KPIs (conceptual)
+DateTable --> TimeIntelligence["Time Intelligence (MoM, PM, YoY)"]
+OrderDetails --> ProfitLogic["Profit & Negative Profit Logic"]
+SalesTarget --> TargetLogic["Target vs Actual Measures"]
+```
+
 
 Created by **Jerick Osoria**  
+
 jerickos77@gmail.com
+
 Phoenix, AZ  
 
