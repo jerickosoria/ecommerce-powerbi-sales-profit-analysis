@@ -24,7 +24,7 @@ README_DATA.md
 ## 🧼 Raw vs Cleaned Data
 
 ### **raw/**  
-Contains the original CSV files exactly as provided. These files may include:
+Contains the original CSV files exactly as provided. These files include:
 - Missing values  
 - Inconsistent date formats  
 - Mixed data types  
@@ -112,6 +112,8 @@ To regenerate the cleaned datasets:
 
 # 📬 Contact
 
-Created by **Jerick Osoria**  
+Created by **Jerick Osoria** 
+
 jerickos77@gmail.com
+
 Phoenix, AZ  
